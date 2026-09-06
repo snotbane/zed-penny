@@ -1,0 +1,9 @@
+id = "penny"
+name = "Penny"
+description = "Penny language support for Zed"
+version ="0.0.1"
+schema_version = 1
+authors = [
+	"Sebastian Weaver <snotbane@pm.me>"
+]
+repository = "https://github.com/snotbane/zed-penny"

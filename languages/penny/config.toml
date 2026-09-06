@@ -1,0 +1,5 @@
+name = "Penny"
+grammar = "penny"
+path_suffixes = ["pen", "penny"]
+line_comments = ["# ", "#	"]
+hard_tabs = true
