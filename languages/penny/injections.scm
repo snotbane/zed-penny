@@ -1,3 +1,3 @@
 (statement_dialog
-  (dialog) @injection.content
+  (string_rich) @injection.content
   (#set! injection.language "penny_dialog"))

@@ -1,4 +1,9 @@
-> 	Hello \ <wave spin=8 | i> @rubin 10. Good day [ esther ] += {es-MX} Hola
+
+max.headroom
+>
+	What's going on--on?
+
+rubin > 	<va="Your">Hello \ <wave osc=8 | i> @rubin 10</i>. Good day [ esther ] += {es-MX} Hola
 
 
 

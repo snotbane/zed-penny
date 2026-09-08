@@ -1,5 +1,7 @@
 (text) @string
 
+(quote) @punctuation.special
+
 (number) @number
 
 (informal) @constant
@@ -12,16 +14,25 @@
 
 (path) @variable
 
-[
-  "<"
-  ">"
-] @punctuation.bracket.tag
+(tag_start
+  [
+    "<"
+    ">"
+  ] @punctuation.bracket.tag)
 
-(tag_group) @tag
+(tag_end
+  [
+    "</"
+    ">"
+  ] @punctuation.bracket.tag)
 
-(tag_param) @variable.parameter
+(fx_sep) @punctuation.delimiter.tag
 
-(tag_arg) @variant
+(fx_id) @tag
+
+(fx_param) @variable.parameter
+
+(fx_arg) @variant
 
 (escape) @string.escape
 

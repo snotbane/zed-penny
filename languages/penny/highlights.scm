@@ -6,6 +6,8 @@
 
 (identifier) @variable
 
-(operator) @punctuation
+(operator) @operator
 
-(dialog) @text.literal
+(string_rich) @text.literal
+
+(string_raw) @string
