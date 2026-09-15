@@ -1,5 +1,14 @@
 name = "Penny"
 grammar = "penny"
 path_suffixes = ["penny", "pen"]
-line_comments = ["# ", "#	"]
-hard_tabs = true
+line_comments = ["# ", "## ", "#	", "##	"]
+brackets = [
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = true },
+    { start = '"', end = '"', close = true, newline = true },
+    { start = "'", end = "'", close = true, newline = true },
+    { start = "`", end = "`", close = true, newline = true },
+]
+auto_indent_using_last_non_empty_line = false
+autoclose_before = ".,}])"

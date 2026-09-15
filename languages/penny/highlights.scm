@@ -11,3 +11,5 @@
 (string_rich) @text.literal
 
 (string_raw) @string
+
+(brace) @punctuation.bracket

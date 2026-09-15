@@ -1,10 +1,26 @@
 
-max.headroom
+>	Hello
+
+	Goodbye
+
+rubin
 >
-	What's going on--on?
+	{en}
+		<va="Your">Hello \ <wave osc=8 | i> @rubin 10</i>. Good day [ esther ] +=
 
-rubin > 	<va="Your">Hello \ <wave osc=8 | i> @rubin 10</i>. Good day [ esther ] += {es-MX} Hola
+	{es-MX}
+		Hola senor
 
+esther
+>	Hi
 
+x = 0
 
 # Something
+
+Esther = new object
+	.name => Esther
+		{ru} Эстер
+		{ja} エスター
+		{zh} 以斯帖
+	.spouse = Rubin

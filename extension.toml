@@ -10,7 +10,7 @@ repository = "https://github.com/snotbane/zed-penny"
 
 [grammars.penny]
 repository = "https://github.com/snotbane/tree-sitter-penny"
-rev = "413e98c38f4ca5e0cf49fa0d84f4357866e7f860"
+rev = "54d5081ab1767d4a17e5ad5b3fdea4d695d14c0b"
 
 [grammars.penny_dialog]
 repository = "https://github.com/snotbane/tree-sitter-penny-dialog"
