@@ -1,26 +1,71 @@
 
->	Hello
+# Comment
 
-	Goodbye
+null
+Null
+NULL
 
-rubin
->
-	{en}
-		<va="Your">Hello \ <wave osc=8 | i> @rubin 10</i>. Good day [ esther ] +=
+true
+True
+TRUE
 
-	{es-MX}
-		Hola senor
+false
+False
+FALSE
 
-esther
->	Hi
+0
+123
+0.5
+.1
+
+"raw string"
+"raw string \"with escaped quotes\""
+
+`Rich string`
+> Rich block
+
+"filter" -> "replace"
+
+path
+path.path.path
+
+[]
+
+[ 0 ]
+
+arr = [
+	0,
+	1,
+	2,
+]
+
+
+a0 = arr[0]
+
+think()
+
+await travel(0, 1)
 
 x = 0
 
-# Something
+match x:
+	0:
+		pass
+	_:
+		pass
 
-Esther = new object
-	.name => Esther
-		{ru} Эстер
-		{ja} エスター
-		{zh} 以斯帖
-	.spouse = Rubin
+if x:
+	pass
+
+elif x == 1:
+	pass
+
+else:
+	pass
+
+ask:
+
+x ask:
+	> Option 1
+	:
+		> You have chosen Option 1

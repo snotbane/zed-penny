@@ -1,4 +1,7 @@
-; ; Add an indent level when adding a line within brackets
-; (_
-;   (brace)
-;   (brace) @end) @indent
+[
+  (stmt_ask)
+  (stmt_if)
+  (stmt_elif)
+  (stmt_else)
+  (stmt_match)
+] @indent
