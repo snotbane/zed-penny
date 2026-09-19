@@ -29,10 +29,11 @@
 
 >	<va=hello.wav>Hello</>
 
-+>	<va="hello with spaces.wav">
+>	<va="hello with spaces.wav">
 		Hello
 	</>
 
-+>	<wave={ wave + 2 }>Hello</>
+>	<wave={ wave + 2 }>Hello</>
 
 +>	<color=@.color>@.name</>
+--

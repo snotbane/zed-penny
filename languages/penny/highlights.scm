@@ -82,3 +82,6 @@
     (path
       .
       (identifier) @label .)))
+
+(stmt_say
+  "+" @punctuation.special)
