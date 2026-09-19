@@ -1,0 +1,38 @@
+
+## Pure text
+> Hello
+
+## Quoted rich string
+`Hello`
+
+## Informals as hints
+> 10 += asdf > }
+
+## Expression
+> Hello { Rubin }!
+
+## Path
+> Hello @Rubin!
+
+## Translation marker
+>	[en] Hello
+	[es1] Hola
+
+## Tags
+>	<>Hello</>
+
+>	<b>Hello</b>
+
+>	<b|i>Hello</b|i>
+
+>	<wave=2 osc=8>Hello</>
+
+>	<va=hello.wav>Hello</>
+
++>	<va="hello with spaces.wav">
+		Hello
+	</>
+
++>	<wave={ wave + 2 }>Hello</>
+
++>	<color=@.color>@.name</>

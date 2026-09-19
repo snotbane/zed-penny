@@ -1,4 +1,12 @@
 name = "Penny Dialog"
 grammar = "penny_dialog"
+brackets = [
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = false },
+    { start = '"', end = '"', close = true, newline = false },
+    { start = "'", end = "'", close = true, newline = false },
+    { start = "`", end = "`", close = true, newline = false },
+]
 # This is not designed to be used, but for some reason, is required in order to ensure the language loads as an injection.
 path_suffixes = ["penny_dialog"]

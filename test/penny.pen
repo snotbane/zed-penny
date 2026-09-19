@@ -69,3 +69,7 @@ x ask:
 	> Option 1
 	:
 		> You have chosen Option 1
+
+label start
+
+jump start

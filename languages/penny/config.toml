@@ -4,11 +4,11 @@ path_suffixes = ["penny", "pen"]
 line_comments = ["# ", "## ", "#	", "##	"]
 brackets = [
     { start = "[", end = "]", close = true, newline = true },
-    { start = "(", end = ")", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = false },
     { start = "{", end = "}", close = true, newline = true },
-    { start = '"', end = '"', close = true, newline = true },
-    { start = "'", end = "'", close = true, newline = true },
-    { start = "`", end = "`", close = true, newline = true },
+    { start = '"', end = '"', close = true, newline = false },
+    { start = "'", end = "'", close = true, newline = false },
+    { start = "`", end = "`", close = true, newline = false },
 ]
 auto_indent_using_last_non_empty_line = false
 autoclose_before = ".,}])"

@@ -1,42 +1,64 @@
-(text) @string
+(text) @text
 
-(quote) @punctuation.special
+(text
+  .
+  [
+    "`"
+    ">"
+  ] @punctuation.special)
+
+(escape_sequence) @string.escape
+
+(pure) @text.literal
 
 (number) @number
 
-(informal) @constant
+(informal) @hint
 
-(translation) @preproc.translation
+(expression
+  [
+    "{"
+    "}"
+  ] @punctuation.bracket)
 
-(translation_content) @keyword
+(path
+  .
+  "@" @punctuation.special)
 
-(special) @string.special.symbol
+(translation_marker
+  [
+    "["
+    "]"
+  ] @punctuation.bracket)
 
-(path) @variable
+(lang) @constant
+
+(lang_invalid) @text
 
 (tag_start
   [
     "<"
     ">"
-  ] @punctuation.bracket.tag)
+  ] @punctuation.bracket)
+
+(tag_start
+  "|" @punctuation.delimiter)
 
 (tag_end
   [
     "</"
     ">"
-  ] @punctuation.bracket.tag)
+  ] @punctuation.bracket)
 
-(fx_sep) @punctuation.delimiter.tag
-
-(fx_id) @tag
-
-(fx_param) @variable.parameter
-
-(fx_arg) @variant
-
-(escape) @string.escape
+(tag_end
+  "|" @punctuation.delimiter)
 
 [
-  "["
-  "]"
-] @punctuation.bracket.express
+  (tag_start)
+  (tag_end)
+] @tag
+
+(arg
+  "=" @punctuation.special)
+
+(arg_value) @variant

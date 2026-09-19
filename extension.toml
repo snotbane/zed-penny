@@ -14,4 +14,4 @@ rev = "b4621338cd4dd3a4f8098c9c6a73e37687e5a3c7"
 
 [grammars.penny_dialog]
 repository = "https://github.com/snotbane/tree-sitter-penny-dialog"
-rev = "9e1ef8da381ffef97d149cbf0c05a4b3e07dd4f7"
+rev = "ca4792b32dcfb9e691ebc40be1a824c5fd2538ba"

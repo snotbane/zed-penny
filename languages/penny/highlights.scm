@@ -73,3 +73,12 @@
   "suspend"
   "var"
 ] @keyword
+
+(stmt_label
+  (identifier) @label)
+
+(stmt_jump
+  (expression
+    (path
+      .
+      (identifier) @label .)))
