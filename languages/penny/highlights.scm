@@ -1,5 +1,7 @@
 (comment) @comment
 
+(keyword) @keyword
+
 (null) @constant.builtin
 
 (boolean) @boolean
@@ -24,6 +26,9 @@
   "." @punctuation.delimiter)
 
 (identifier) @variable
+
+(identifier
+  "~" @keyword)
 
 (array
   "[" @punctuation.bracket)
@@ -53,6 +58,9 @@
 
 (option
   (default) @constant.builtin)
+
+(option
+  "when" @keyword)
 
 [
   "ask"

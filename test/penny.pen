@@ -53,7 +53,7 @@ x = 0
 match x:
 	0 when y == 0:
 		pass
-	_:
+	else:
 		pass
 
 if x:
@@ -75,3 +75,8 @@ x ask:
 label start
 
 jump start
+
+Rubin > Hello
+
+~
+> Hello
