@@ -29,6 +29,8 @@ FALSE
 path
 path.path.path
 
+something = new object
+
 []
 
 [ 0 ]
@@ -49,7 +51,7 @@ await travel(0, 1)
 x = 0
 
 match x:
-	0:
+	0 when y == 0:
 		pass
 	_:
 		pass
