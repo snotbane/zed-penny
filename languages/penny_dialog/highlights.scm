@@ -11,8 +11,6 @@
 
 (pure) @text.literal
 
-(keyword) @keyword
-
 (number) @number
 
 (informal) @hint
@@ -64,6 +62,3 @@
   "=" @punctuation.special)
 
 (arg_value) @variant
-
-(option
-  "when") @keyword
