@@ -1,5 +1,6 @@
 name = "Penny Dialog"
 grammar = "penny_dialog"
+line_comments = ["# ", "## ", "#	", "##	"]
 brackets = [
     { start = "[", end = "]", close = true, newline = false },
     { start = "(", end = ")", close = true, newline = false },
