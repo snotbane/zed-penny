@@ -58,6 +58,11 @@
   (tag_end)
 ] @tag
 
+(tag_clear
+  "</" @punctuation.bracket
+  "*" @keyword
+  ">" @punctuation.bracket)
+
 (arg
   "=" @punctuation.special)
 
