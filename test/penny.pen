@@ -22,12 +22,14 @@ FALSE
 "raw string \"with escaped quotes\""
 
 `Rich string`
-> Rich block
+> Rich block <color=#0facdf></>
 
 "filter" -> "replace"
 
 path
 path.path.path
+
+color = #0fdafc
 
 something = new object
 

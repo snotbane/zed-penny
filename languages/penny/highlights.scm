@@ -8,6 +8,8 @@
 
 (number) @number
 
+(color) @constant
+
 (escape_sequence) @string.escape
 
 (string_raw) @string
