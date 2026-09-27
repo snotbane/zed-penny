@@ -53,9 +53,20 @@
 (tag_end
   "|" @punctuation.delimiter)
 
+(tag_standalone
+  [
+    "<"
+    "/>"
+  ] @punctuation.bracket)
+
+(tag_standalone
+  "|" @punctuation.delimiter)
+
 [
-  (tag_start)
+  (tag_clear)
   (tag_end)
+  (tag_standalone)
+  (tag_start)
 ] @tag
 
 (tag_clear
